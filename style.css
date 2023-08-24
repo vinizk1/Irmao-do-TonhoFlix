@@ -7,3 +7,8 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(0,
 header {
     padding: 20px;
 }
+
+.secundario_imagem {
+    width: 275px;
+    height: auto;
+}
