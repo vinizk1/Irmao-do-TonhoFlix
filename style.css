@@ -3,11 +3,19 @@ body {
 background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(255,0,0,1) 100%);
     color: whitesmoke;
     margin: 0px;
+    font-size: 26px; 
+    font-weight: 500;
 }
 
 header {
+    text-align: center;
     padding: 20px;
-    font-size: 32px;
+    font-size: 6rem;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif ;
+    font: bold;
+}
+
+h1 {
     text-align: center;
 }
 
@@ -26,6 +34,17 @@ section {
 }
 
 .conteiner_video {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:800px) {
+        .imglogo {
+            width: 35%;
+        }
+}
+
+#logo {
     display: flex;
     justify-content: center;
 }
